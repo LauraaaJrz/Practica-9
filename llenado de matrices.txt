@@ -1,0 +1,74 @@
+#include<stdio.h>
+#include<conio.h>
+  int main() {
+         int c1, r1, c2, r2, Cr, Cc;
+         {
+         Cr=0;
+         Cc=0;
+         
+         printf ("Este programa resuelve matrices \n\n\n");
+         {
+         printf("Inserte el n\243mero de columnas de la matriz 1\n");
+         scanf("%d",&c1);
+         if (c1==0)
+		 {
+         	   printf("Error en la matriz,\n");
+                   getch ();
+                   return 0;
+                   }}
+         
+         printf("Inserte el n\243mero de renglones de la matriz 1\n");
+         scanf("%d",&r1);
+		 if (r1==0)
+		 {
+		   printf("Error en la matriz,\n");
+                   getch ();
+                   return 0;
+                   }}
+		{ 
+		printf ("Inserte el n\243mero de columnas de la matriz 2\n");
+		scanf ("%d", & c2);
+		if (c2==0)
+		{
+		   printf("Error en la matriz\n");
+                   getch ();
+                   return 0;
+                   }}
+                   {
+        printf("Inserte en n\243mero de renglones de la matriz 2\n");
+		scanf("%d", & r2);
+		if(r2==0)
+		{
+	           printf("Error en la matriz\n");
+                   getch ();
+                   return 0;
+                   }}
+         
+		 printf("viendo valores de columna de matriz 1\n\n con los renglones de la matriz 2");
+		 getch();
+		 if (c1==r2)
+		 {
+		 	printf("La operaci\242n s\241 se realizara n\n\n");
+		 	getch();	
+		 } 
+		 else
+		 {
+		 	printf("Error en la matriz \n\n");
+		 	getch();
+		 	return 0;
+		    }
+		 printf("Inserte los valores de la matriz \n\n");
+		 getch();
+		 
+		 for(Cc=0; Cc<c1; Cc+=1)
+		 {{
+		 	int Cc;
+		 	
+		 	printf("insertelos valores de las columnas en curso de la matriz 1 \r");
+		 	scanf("%d", &Cc);
+		 	Cc=0;
+		 	Cc+1;
+		 }}
+		 printf("se guardo \n\n Cambio de renglon");
+		 getch();
+	}
